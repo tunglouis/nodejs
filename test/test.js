@@ -3,6 +3,6 @@ var app = require('../app.js');
 describe('GET /', function() {
  it('respond with hello world', function(done) {
  //navigate to root and check the the response is "hello world"
- request(app).get('/').expect('hello world by Tung Pham', done);
+ request(app).get('/').expect('hello world by Tung Pham on Branch Master', done);
  });
 });
